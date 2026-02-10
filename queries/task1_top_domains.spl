@@ -1,0 +1,3 @@
+index=dns_lab sourcetype="json"
+| stats count by query
+| sort -count
