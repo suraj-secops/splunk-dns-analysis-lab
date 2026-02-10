@@ -1,0 +1,2 @@
+index=main sourcetype="json"
+| stats count by qtype
